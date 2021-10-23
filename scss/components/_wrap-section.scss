@@ -1,0 +1,112 @@
+.wrap-section {
+    margin: 3.2em auto 0 auto;
+    padding: 0 1em;
+    text-align: center;
+  
+    .wrap-article {
+      .wrap-logo-second {
+        width: max-content;
+        padding: 2em 1em;
+        display: none;
+  
+        img {
+          width: 120px;
+        }
+      }
+  
+      .wrap-title {
+        h1 {
+          font-size: $main-heading;
+          text-transform: uppercase;
+          letter-spacing: $letter-spacing-main-heading;
+          line-height: $line-height-main-heading;
+  
+          span {
+            font-weight: $light;
+            color: $DesaturatedRed;
+            display: block;
+          }
+        }
+      }
+  
+      .wrap-description {
+        margin: 0.8em 0 0 0;
+  
+        p {
+          font-size: 0.84rem;
+          font-weight: $regular;
+          color: $DesaturatedRed;
+          line-height: $line-height-main-paragraph-heading;
+        }
+      }
+  
+      .wrap-form {
+        margin: 2em 0 5em 0;
+        position: relative;
+  
+        form {
+          input[type="email"] {
+            width: 100%;
+            padding: 1.2em 1.8em;
+            border: 1px solid $DesaturatedRed;
+            background-color: transparent;
+            border-radius: 2em;
+  
+            &:focus {
+              outline: none;
+            }
+          }
+  
+          ::placeholder {
+            font-size: 0.9rem;
+            font-family: $josefin;
+            font-weight: $regular;
+            color: $DesaturatedRed;
+          }
+        }
+  
+        .wrap-msg-error {
+          margin: 0.5em 0 0 0;
+          position: absolute;
+  
+          p {
+            padding: 0 0 0 1.8em;
+            text-align: left;
+            font-size: 0.82rem;
+            color: $SoftRed;
+            display: none;
+          }
+        }
+  
+        .wrap-button {
+          width: 65px;
+          height: 48px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          position: absolute;
+          top: 0;
+          right: 0;
+          background: linear-gradient($LinearSecond);
+          border-radius: 25px;
+          cursor: pointer;
+          box-shadow: 0 10px 12px rgba(0, 0, 0, 0.2);
+  
+          &:hover {
+            background: $buttonHover;
+          }
+        }
+  
+        .wrap-error-sign {
+          display: none;
+          position: absolute;
+          top: 14px;
+          right: 80px;
+  
+          img {
+            width: 20px;
+          }
+        }
+      }
+    }
+  }

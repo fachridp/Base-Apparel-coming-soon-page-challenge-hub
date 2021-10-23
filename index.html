@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Base Apparel coming soon page</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <main>
+      <div class="big-container">
+        <div class="wrap-logo-first">
+          <a href="index.html">
+            <img src="./images/logo.svg" alt="logo base apparel" />
+          </a>
+        </div>
+        <div class="wrap-img">
+          <img
+            class="hero-mobile"
+            src="./images/hero-mobile.jpg"
+            alt="beautiful woman"
+          />
+          <img
+            class="hero-desktop"
+            src="./images/hero-desktop.jpg"
+            alt="beautiful woman"
+          />
+        </div>
+        <section class="wrap-section">
+          <article class="wrap-article">
+            <div class="wrap-logo-second">
+              <a href="index.html">
+                <img src="./images/logo.svg" alt="logo base apparel" />
+              </a>
+            </div>
+            <div class="wrap-title">
+              <h1>
+                <span> We're </span>
+                Coming Soon
+              </h1>
+            </div>
+            <div class="wrap-description">
+              <p>
+                Hello fellow shoppers! We're currently bulding our new fashion
+                store. Add your email below to stay up-to-date with
+                announcements and our launch deals.
+              </p>
+            </div>
+            <div class="wrap-form">
+              <form>
+                <input
+                  type="email"
+                  id="email"
+                  class="input-field"
+                  placeholder="Email Address"
+                  autocomplete="off"
+                />
+              </form>
+              <div class="wrap-msg-error">
+                <p class="invalid-email">Please provide a valid email</p>
+                <p class="empty-email">Please insert your email</p>
+              </div>
+              <div class="wrap-button" id="wrap-button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="20">
+                  <path
+                    fill="none"
+                    stroke="#FFF"
+                    stroke-width="2"
+                    d="M1 1l8.836 8.836L1 18.671"
+                  />
+                </svg>
+              </div>
+              <div class="wrap-error-sign">
+                <img src="./images/icon-error.svg" alt="icon error" />
+              </div>
+            </div>
+          </article>
+        </section>
+      </div>
+    </main>
+
+    <script src="./script/script.js"></script>
+  </body>
+</html>

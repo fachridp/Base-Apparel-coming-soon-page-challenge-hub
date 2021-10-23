@@ -1,0 +1,9 @@
+main {
+  .big-container {
+    width: 320px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(1, 320px);
+    background: linear-gradient($LinearFirst);
+  }
+}
